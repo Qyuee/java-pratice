@@ -10,11 +10,11 @@ import java.util.stream.Stream;
 @Slf4j
 public class StreamTest003 {
     public static void main(String[] args) {
-        //flatMap();
+        //flatMapTest();
         flatMapToInt();
     }
 
-    public static void flatMap() {
+    public static void flatMapTest() {
         List<List<String>> list = Arrays.asList(
                 Arrays.asList("a", "b", "c"),
                 Arrays.asList("b")
